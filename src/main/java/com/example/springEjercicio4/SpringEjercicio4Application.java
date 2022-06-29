@@ -1,5 +1,6 @@
 package com.example.springEjercicio4;
 
+import com.example.springEjercicio4.controllers.HelloController;
 import com.example.springEjercicio4.entities.Laptop;
 import com.example.springEjercicio4.repositories.LaptopRepository;
 import org.springframework.boot.SpringApplication;
@@ -19,6 +20,7 @@ public class SpringEjercicio4Application {
 		Laptop laptop2 = new Laptop(null, "Razer", "Blade", 17);
 		repository.save(laptop1);
 		repository.save(laptop2);
+
 	}
 
 }
